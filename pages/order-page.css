@@ -1,0 +1,131 @@
+body{
+  background-color: #C68624;
+  font-family: helvetica;
+}
+.header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7%;
+  background-color: black;
+  opacity: .6;
+  z-index: 3;
+}
+.title-holder{
+  height: 90%;
+  width:100%;
+  display:flex;
+  align-items: center;
+}
+.title-text{
+  color: white;
+}
+.container{
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  height: 85.5%;
+  width: 100%;
+  z-index: 3;
+}
+
+.totals{
+  position: absolute;
+  right: 19.5%;
+  top: 5%;
+  width: 20%;
+  height: 90%;
+  background-color: white;
+}
+.selected-items{
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 80%;
+  left: 0%;
+}
+.cost-of-selected{
+  position: absolute;
+  height: 20%;
+  width: 100%;
+  top: 80%;
+  left: 0%;
+  box-shadow: inset 0 1px 0 0 #000000;
+
+}
+.total-amounts{
+  position: relative;
+  text-align: right;
+  width: 100%;
+  display: block;
+}
+.all-items{
+  position: absolute;
+  left: 19.5%;
+  top: 5%;
+  width: 39%;
+  height: 28%;
+}
+.quantity-choose-label{
+  position: absolute;
+  left: 19.5%;
+  width: 4%;
+  top: 33.4%;
+}
+.choose-quantity{
+  position: absolute;
+  left: 19.5%;
+  width: 4%;
+  height: 7%;
+  top: 36.5%;
+  border: 0;
+}
+.add-item-button{
+  position: absolute;
+  left: 25%;
+  width: 13%;
+  height: 9%;
+  top: 35%;
+  background-color: #5973A6;
+  color: white;
+  border: 0px;
+}
+.first-input{
+  margin-top: 30px;
+}
+.info-label{
+  display: block;
+  position: relative;
+  top: 46%;
+  width: 39%;
+  left: 19.5%;
+}
+.info-input{
+  display: block;
+  position: relative;
+  top: 46%;
+  width: 39%;
+  height: 6%;
+  left: 19.5%;
+  margin-bottom: 15px;
+}
+.deliver-button{
+  position: absolute;
+  top: 85%;
+  height: 10%;
+  width: 39%;
+  left: 19.5%;
+  background-color: #59A673;
+  color: white;
+  border: 0px;
+}
+
+.footer{
+  position: absolute;
+  width: 100%;
+  height: 7.5%;
+  top: 92.5%;
+  left: 0%;
+  background-color: black;
+}

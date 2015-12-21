@@ -1,0 +1,108 @@
+body{
+  font-family: helvetica;
+}
+/*Header*/
+  .header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7%;
+    background-color: black;
+    opacity: .6;
+    z-index: 3;
+  }
+  .title-holder{
+    height: 90%;
+    width:100%;
+    display:flex;
+    align-items: center;
+  }
+  .title-text{
+    color: white;
+  }
+/*Pic And Button*/
+  .pic-and-button{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 70%;
+  }
+  .bg-image{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  .header-holder{
+    height: 90%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .titles{
+    color: black;
+    font-size: 48pt;
+    color: white;
+    vertical-align: middle;
+    position: relative;
+    display: block;
+    margin: auto;
+    text-align: center;
+    z-index: 3;
+  }
+  .order-button{
+    position: absolute;
+    left: 15%;
+    top: 75%;
+    width: 70%;
+    height: 12.5%;
+    background-color: #59A673;
+    color: white;
+    border: 0px;
+  }
+/*Articles*/
+  .bottom-infos{
+    position: absolute;
+    left: 0;
+    top: 70%;
+    width: 100%;
+    height: 22.5%;
+    background-color: white;
+  }
+  .bottom-info{
+    left: 0%;
+    position: relative;
+    float:left;
+    width: 33.3%;
+    height: 100%;
+    background-color: white;
+    box-shadow: inset 0 0 10px #000000;
+    margin: 0px;
+  }
+  .info-title{
+    text-align: center;
+    margin: 5px 0 5px 0;
+  }
+  .actual-info{
+    text-align: justify;
+    font-size: 13pt;
+    position: relative;
+    width: 80%;
+    top:0%;
+    margin: 0 auto;
+
+  }
+/*Footer*/
+  .footer{
+    position: absolute;
+    width: 100%;
+    height: 7.5%;
+    top: 92.5%;
+    left: 0%;
+    background-color: black;
+    color: white;
+  }

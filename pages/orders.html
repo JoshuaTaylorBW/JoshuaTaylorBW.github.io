@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="order-page.css">
+</head>
+<body>
+  <header class="header">
+    <div class="title-holder">
+      <h2 class="title-text">Galvanize Eats</h2>
+    </div>
+  </header>
+
+  <section class="container">
+    <section class="totals">
+      <div class="selected-items">
+      </div>
+      <div class="cost-of-selected">
+        <p class="total-amounts" id="Subtotal">Subtotal: </p>
+        <p class="total-amounts" id="Tax">Tax: </p>
+        <p class="total-amounts" id="Total">Total: </p>
+      </div>
+    </section>
+
+    <select class="all-items" id="all-items" name="all-items[]" multiple>
+      <option value="Burger" disabled>Burgers</option>
+    </select>
+
+    <label for="choose-quantity" class="quantity-choose-label">Quantity</label>
+    <input type="text" value="1" class="choose-quantity" id="choose-quantity">
+    <button class="add-item-button" id="add-item-button">Add Item</button>
+
+
+
+    <label class='info-label' for="info-input">Name</label>
+    <input type="text" class="info-input">
+
+    <label class='info-label' for="info-input">Phone Number</label>
+    <input type="text" class="info-input">
+
+    <label class='info-label' for="info-input">Address</label>
+    <input type="text" class="info-input">
+
+    <button class="deliver-button" id="deliver-button">Deliver it!</button>
+
+  </section>
+
+  <footer class="footer">
+  </footer>
+</body>
+
+    <script  src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="orders.js"></script>
+
+</html>
